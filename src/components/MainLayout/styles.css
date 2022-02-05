@@ -1,4 +1,19 @@
 .site-page-header {
   border: 1px solid rgb(235, 237, 240);
   width: 100%;
+  box-shadow: rgba(100, 100, 111, 0.1) 0px 4px 12px 0px;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+}
+
+@media only screen and (max-width: 576px) {
+  .site-page-content {
+    margin-top: 74px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .site-page-content {
+    margin-top: 83px;
+  }
 }

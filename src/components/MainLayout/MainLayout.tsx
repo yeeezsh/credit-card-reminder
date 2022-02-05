@@ -14,7 +14,11 @@ const MainLayout: React.FC = (props) => {
           backIcon={<CreditCardOutlined />}
         />
       </Row>
-      <Row justify="space-between" gutter={[8, 8]}>
+      <Row
+        className="site-page-content"
+        justify="space-between"
+        gutter={[8, 8]}
+      >
         {React.Children.map(props.children, (e) => (
           <Col xs={24} sm={12} md={8}>
             {e}
