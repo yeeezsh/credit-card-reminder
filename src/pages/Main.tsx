@@ -1,5 +1,7 @@
-const Main = () => {
-  return <div>Main Page</div>;
+import MainLayout from "../components/MainLayout/MainLayout";
+
+const Main: React.FC = () => {
+  return <MainLayout></MainLayout>;
 };
 
 export default Main;
