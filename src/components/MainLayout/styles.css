@@ -7,13 +7,17 @@
   background-color: white;
 }
 
+.site-page-content {
+  padding-bottom: 120px;
+}
+
 @media only screen and (max-width: 576px) {
-  .site-page-content {
+  .responsive-content {
     margin-top: 74px;
   }
 }
 @media only screen and (min-width: 576px) {
-  .site-page-content {
+  .responsive-content {
     margin-top: 83px;
   }
 }

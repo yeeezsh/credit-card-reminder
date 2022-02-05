@@ -16,7 +16,7 @@ const MainLayout: React.FC = (props) => {
         />
       </Row>
       <Row
-        className="site-page-content"
+        className="site-page-content responsive-content"
         justify="space-between"
         gutter={[8, 8]}
       >
