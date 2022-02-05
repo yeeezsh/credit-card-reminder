@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.5](https://github.com/yeeezsh/credit-card-reminder/compare/v0.1.4...v0.1.5) (2022-02-05)
+
+
+### Features
+
+* :sparkles: random color ([52da92a](https://github.com/yeeezsh/credit-card-reminder/commit/52da92ab779c11ad1cfbedffe397ff7f136af40f))
+* :sparkles: render card ([2bbd6f4](https://github.com/yeeezsh/credit-card-reminder/commit/2bbd6f46c220a491d38935ef049cc81ee22de4d0))
+
+
+### Bug Fixes
+
+* :see_no_evil: wrong title name ([d2a6b32](https://github.com/yeeezsh/credit-card-reminder/commit/d2a6b32015b282732b2fe78515a3ad13fe0b4308))
+
 ### [0.1.4](https://github.com/yeeezsh/credit-card-reminder/compare/v0.1.1...v0.1.4) (2022-02-05)
 
 
