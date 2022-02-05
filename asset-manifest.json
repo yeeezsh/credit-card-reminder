@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/yeeezsh/credit-card-reminder/static/css/main.073c9b0a.css",
+    "main.js": "/yeeezsh/credit-card-reminder/static/js/main.75b45c3d.js",
+    "static/js/787.9eb7b1e7.chunk.js": "/yeeezsh/credit-card-reminder/static/js/787.9eb7b1e7.chunk.js",
+    "static/media/logo.svg": "/yeeezsh/credit-card-reminder/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/yeeezsh/credit-card-reminder/index.html",
+    "main.073c9b0a.css.map": "/yeeezsh/credit-card-reminder/static/css/main.073c9b0a.css.map",
+    "main.75b45c3d.js.map": "/yeeezsh/credit-card-reminder/static/js/main.75b45c3d.js.map",
+    "787.9eb7b1e7.chunk.js.map": "/yeeezsh/credit-card-reminder/static/js/787.9eb7b1e7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.75b45c3d.js"
+  ]
+}
