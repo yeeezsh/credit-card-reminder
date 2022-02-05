@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/credit-card-reminder/static/css/main.f51ccd5a.css",
-    "main.js": "/credit-card-reminder/static/js/main.7583558f.js",
+    "main.css": "/credit-card-reminder/static/css/main.a49e0e4e.css",
+    "main.js": "/credit-card-reminder/static/js/main.802395f8.js",
     "static/js/787.9eb7b1e7.chunk.js": "/credit-card-reminder/static/js/787.9eb7b1e7.chunk.js",
     "index.html": "/credit-card-reminder/index.html",
-    "main.f51ccd5a.css.map": "/credit-card-reminder/static/css/main.f51ccd5a.css.map",
-    "main.7583558f.js.map": "/credit-card-reminder/static/js/main.7583558f.js.map",
+    "main.a49e0e4e.css.map": "/credit-card-reminder/static/css/main.a49e0e4e.css.map",
+    "main.802395f8.js.map": "/credit-card-reminder/static/js/main.802395f8.js.map",
     "787.9eb7b1e7.chunk.js.map": "/credit-card-reminder/static/js/787.9eb7b1e7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f51ccd5a.css",
-    "static/js/main.7583558f.js"
+    "static/css/main.a49e0e4e.css",
+    "static/js/main.802395f8.js"
   ]
 }
