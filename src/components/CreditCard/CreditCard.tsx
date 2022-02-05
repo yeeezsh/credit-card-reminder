@@ -1,32 +1,41 @@
 import {
   EditOutlined,
-  EllipsisOutlined,
-  SettingOutlined,
+  DeleteOutlined,
+  CalendarOutlined,
 } from "@ant-design/icons";
-import { Card, Avatar } from "antd";
+import { Avatar, Card, Statistic, Tag } from "antd";
+import dayjs from "dayjs";
+import { CardModel } from "../../models/CardModel";
 
 const { Meta } = Card;
 
-const CreditCard = () => {
+export interface CreditCardProps extends CardModel {}
+
+const CreditCard: React.FC<CreditCardProps> = (props) => {
+  const firstLetter = props.name.slice(0, 1);
   return (
     <Card
       style={{ width: "100%" }}
-      cover={
-        <img
-          alt="example"
-          src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
-        />
-      }
-      actions={[
-        <SettingOutlined key="setting" />,
-        <EditOutlined key="edit" />,
-        <EllipsisOutlined key="ellipsis" />,
-      ]}
+      actions={[<EditOutlined key="edit" />, <DeleteOutlined key="setting" />]}
     >
       <Meta
-        avatar={<Avatar src="https://joeschmoe.io/api/v1/random" />}
-        title="Card title"
-        description="This is the description"
+        avatar={
+          <Avatar style={{ backgroundColor: props.color }}>
+            {firstLetter}
+          </Avatar>
+        }
+        title={props.name}
+        description={
+          <>
+            <Statistic
+              title="Next due date"
+              value={props.nOfDueDate}
+              formatter={(v) => `${v}/${dayjs().format("MM")}`}
+              prefix={<CalendarOutlined />}
+            />
+            <Tag>Statement date : {props.statementDate.format("DD")}</Tag>
+          </>
+        }
       />
     </Card>
   );
