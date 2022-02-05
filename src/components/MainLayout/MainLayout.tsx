@@ -1,6 +1,7 @@
-import { PageHeader, Row } from "antd";
+import { Col, PageHeader, Row } from "antd";
 import "./styles.css";
 import { CreditCardOutlined } from "@ant-design/icons";
+import React from "react";
 
 const MainLayout: React.FC = (props) => {
   return (
@@ -13,7 +14,13 @@ const MainLayout: React.FC = (props) => {
           backIcon={<CreditCardOutlined />}
         />
       </Row>
-      <Row>{props.children}</Row>
+      <Row justify="space-between" gutter={[8, 8]}>
+        {React.Children.map(props.children, (e) => (
+          <Col xs={24} sm={12} md={8}>
+            {e}
+          </Col>
+        ))}
+      </Row>
     </>
   );
 };
