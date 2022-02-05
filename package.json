@@ -47,6 +47,7 @@
     ]
   },
   "devDependencies": {
+    "@ant-design/icons": "^4.7.0",
     "@types/antd": "^1.0.0",
     "standard-version": "^9.3.2"
   }
