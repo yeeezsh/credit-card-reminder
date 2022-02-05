@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.7](https://github.com/yeeezsh/credit-card-reminder/compare/v0.1.6...v0.1.7) (2022-02-05)
+
+
+### Bug Fixes
+
+* :lipstick: bottom space ([7b4a192](https://github.com/yeeezsh/credit-card-reminder/commit/7b4a192f0863174e553cd5721f3720b026fb10cb))
+
 ### [0.1.6](https://github.com/yeeezsh/credit-card-reminder/compare/v0.1.5...v0.1.6) (2022-02-05)
 
 
