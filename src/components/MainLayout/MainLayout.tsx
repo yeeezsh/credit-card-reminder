@@ -2,6 +2,7 @@ import { Col, PageHeader, Row } from "antd";
 import "./styles.css";
 import { CreditCardOutlined } from "@ant-design/icons";
 import React from "react";
+import ActionButton from "../ActionButton/ActionButton";
 
 const MainLayout: React.FC = (props) => {
   return (
@@ -25,6 +26,7 @@ const MainLayout: React.FC = (props) => {
           </Col>
         ))}
       </Row>
+      <ActionButton />
     </>
   );
 };

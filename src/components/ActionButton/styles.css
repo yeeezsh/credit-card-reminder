@@ -1,0 +1,19 @@
+.action-base-button {
+  z-index: 1;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 34px;
+  margin-right: 36px;
+  height: 48px;
+  width: 160px;
+}
+
+.action-label-button {
+  line-height: 16px;
+  font-size: 20px;
+}
+
+.action-icon-button {
+  font-size: 22px;
+}
