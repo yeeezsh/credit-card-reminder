@@ -2,7 +2,7 @@
   "name": "credit-card-reminder",
   "version": "0.1.1",
   "private": true,
-  "homepage": "https://github.com/yeeezsh/credit-card-reminder",
+  "homepage": "https://yeeezsh.github.io/credit-card-reminder",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
